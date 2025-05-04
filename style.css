@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(70, 70, 70) ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 19, 75);
+    padding: 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar h3{
+    font-size: x-large;
+    font-weight: 900;
+    background-color: crimson;
+    border-radius: 50px;
+    padding: 2px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.hero{
+    height: 50vh;
+    background-image: url(../Images/hero.png);
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px black solid;
+    margin-top: 70px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    background-color: rgba(128, 128, 128, 0.658);
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+}
+.who{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center; 
+    padding: 10px;
+}
+.who h1{
+    color: white;
+}
+.who .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 5px;
+    border: 5px black solid;
+}
+.who .container p{
+    font-size: x-large;
+    text-align: right;
+    color: black;
+}
+.who p{
+    font-size: larger;
+    color: white;
+}
+.who .prod{
+    padding: 20px;
+    text-align: center;
+    
+}
+.who .prod img{
+    border-radius: 30px;
+    margin-bottom: 3px;
+}
+.who .prod h3{
+    margin-bottom: 5px;
+}
+.who .prod button{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(135, 202, 222);
+}
+.who .container .product p{
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#contact .info form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FFE4C4;
+    padding: 10px;
+    border: 5px black solid;
+    border-radius: 30px;
+
+}
+#contact .info form input,button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 300px;
+}
